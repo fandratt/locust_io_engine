@@ -17,7 +17,7 @@ Run in your terminal `build.sh` to create the docker image. Make sure you have s
 locust -f script/file.py --headless --csv reports/locust_report --html reports/locust_report.html -u 2 -t 3 -r 4 --processes 1
 ```
 
-> Run Robot Specific Tags
+> Run Locust Specific Tags
 
 ```sh
 locust -f script/file.py --headless --csv reports/locust_report --html reports/locust_report.html --tags special -u 3 -t 3 -r 4 --processes 1
